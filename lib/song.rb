@@ -40,10 +40,11 @@ class Song
     order = self.all.sort_by {|song| song.name}
     order
   end
-  def new_from_filename
-    
+  def new_from_filename(filename)
+
   end
-  def create_from_filename
+  def create_from_filename(filename)
+    
   end
   def self.destroy_all
     @@all = []
