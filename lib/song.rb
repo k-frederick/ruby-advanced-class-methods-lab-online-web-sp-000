@@ -40,4 +40,7 @@ class Song
     order = self.all.sort_by {|song| song.name}
     order
   end
+  def new_from_filename
+    
+  end
 end
