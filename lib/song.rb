@@ -41,6 +41,9 @@ class Song
     order
   end
   def new_from_filename
-    
+
+  end
+  def self.destroy_all
+    @@all = []
   end
 end
