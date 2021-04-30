@@ -43,6 +43,8 @@ class Song
   def new_from_filename
 
   end
+  def create_from_filename
+  end
   def self.destroy_all
     @@all = []
   end
